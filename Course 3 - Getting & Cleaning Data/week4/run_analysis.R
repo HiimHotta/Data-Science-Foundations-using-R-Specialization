@@ -1,18 +1,18 @@
-
+'
 # Helped a lot: Nunno Nugroho (RPubs)
 
-# I didn't mean to copy the answer and i checked the guide after finishing my own assignment
-# because it was really weird, using 3 or 4 functions to do something simple... And I was
+# I didnt mean to copy the answer and i checked the guide after finishing my own assignment
+# because it was really weird to use 3 or 4 functions to do something simple... And I was
 # correct, most answers to the assignment were resolved by 1 well designed function.  
 
 # And... The naming convention of the variables are common sense that happened way before
 # i checked his answer, i am a little more reassured now that my naming choices are fine.
-# (After all, english is not my native language and I'm not fluent yet)
+# (After all, english is not my native language and Im not fluent yet)'
 
 library (dplyr)
 
 
-# This one i got from a tutorial because i really think this is cool (after 
+# This one i got from a tutorial because i really think this is cool (after
 # seeing the optimized way to solve some things that i made with 3 functions.
 
 filename <- "finalProject.zip"
@@ -20,7 +20,7 @@ filename <- "finalProject.zip"
 # Checking if archive already exists.
 if (!file.exists(filename)) {
   fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-  download.file(fileURL, filename, method="curl")
+  download.file (fileURL, filename, method="auto")
 }  
 
 # Checking if folder exists
@@ -32,7 +32,7 @@ if (!file.exists("UCI HAR Dataset")) {
 
 # get columns names from "root" folder
 
-setwd ("~/UCI HAR Dataset")
+setwd ("UCI HAR Dataset")
 
 features <- read.table ("features.txt", col.names = c ("n", "names"))
 
@@ -102,3 +102,7 @@ names (tidy_data) <- gsub ("Mag", "Magnitude ", names (tidy_data))
 
 tidy_data2 <- tidy_data %>% group_by (subject, activity) %>% 
                             summarise_all (list (mean = mean))
+
+setwd ("../..")
+
+write.table(tidy_data2, file = "tidy_data.txt", row.name = FALSE)
