@@ -9,9 +9,7 @@ assignment how others made the graphs. I really liked this version from
 2. Details about how the convertion of data from `character` to `Date` and 
 `Posix` are commented in the code.
 
-Course 4 - Exploratory Data Analysis
-
-https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/tree/main/Course%204%20-%20Exploratory%20Data%20Analysis/week1/project
+# Course 4 - Exploratory Data Analysis
 
 ## Plot 1
 
@@ -22,9 +20,9 @@ hist (data_subset$Global_active_power,
       main = "Global Active power")
 ```
 
-The image is bellow and the complete code can be found [here](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/tree/main/Course%204%20-%20Exploratory%20Data%20Analysis/week1/project/plot1.R)
+The image is bellow and the complete code can be found [here](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/blob/main/Course%204%20-%20Exploratory%20Data%20Analysis/week%201/project/plot1.R)
 
-![Plot1](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/tree/main/Course%204%20-%20Exploratory%20Data%20Analysis/week1/project/plot1.png)
+![Plot1](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/blob/main/Course%204%20-%20Exploratory%20Data%20Analysis/week%201/project/plot1.png)
 
 ## Plot 2
 
@@ -35,9 +33,9 @@ with (data_subset, plot (Global_active_power ~ dateTime,
                          ylab="Global Active Power (kilowatts)"))
 ```
 
-The image is bellow and the complete code can be found [here](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/tree/main/Course%204%20-%20Exploratory%20Data%20Analysis/week1/project/plot2.R)
+The image is bellow and the complete code can be found [here](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/blob/main/Course%204%20-%20Exploratory%20Data%20Analysis/week%201/project/plot2.R)
 
-![Plot2](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/tree/main/Course%204%20-%20Exploratory%20Data%20Analysis/week1/project/plot2.png)
+![Plot2](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/blob/main/Course%204%20-%20Exploratory%20Data%20Analysis/week%201/project/plot2.png)
 
 
 ## Plot 3
@@ -62,9 +60,9 @@ with (data_subset, legend ("topright",
                            col = c ("black", "red", "blue")))
 ```
 
-The image is bellow and the complete code can be found [here](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/tree/main/Course%204%20-%20Exploratory%20Data%20Analysis/week1/project/plot3.R)
+The image is bellow and the complete code can be found [here](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/blob/main/Course%204%20-%20Exploratory%20Data%20Analysis/week%201/project/plot3.R)
 
-![Plot3](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/tree/main/Course%204%20-%20Exploratory%20Data%20Analysis/week1/project/plot3.png)
+![Plot3](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/blob/main/Course%204%20-%20Exploratory%20Data%20Analysis/week%201/project/plot3.png)
 
 
 ## Plot 4
@@ -73,6 +71,6 @@ The image is bellow and the complete code can be found [here](https://github.com
 # This one is too big to put in a README file 
 ```
 
-The image is bellow and the complete code can be found [here](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/tree/main/Course%204%20-%20Exploratory%20Data%20Analysis/week1/project/plot4.R)
+The image is bellow and the complete code can be found [here](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/blob/main/Course%204%20-%20Exploratory%20Data%20Analysis/week%201/project/plot4.R)
 
-![Plot4](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/tree/main/Course%204%20-%20Exploratory%20Data%20Analysis/week1/project/plot4.png)
+![Plot4](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/blob/main/Course%204%20-%20Exploratory%20Data%20Analysis/week%201/project/plot4.png)
