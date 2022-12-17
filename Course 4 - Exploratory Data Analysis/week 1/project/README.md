@@ -2,11 +2,13 @@
 
 Some initial consideration:
 
-1. The resolution was made by me, but I like to compare after i complete the
+1. The original Github Repo is from [rdpeng](https://github.com/rdpeng/ExData_Plotting1), or Roger D. Peng.
+
+2. The resolution was made by me, but I like to compare after i complete the
 assignment how others made the graphs. I really liked this version from
 [skycrater](https://rpubs.com/skycrater/180401)
 
-2. Details about how the convertion of data from `character` to `Date` and 
+3. Details about how the convertion of data from `character` to `Date` and 
 `Posix` are commented in the code.
 
 # Course 4 - Exploratory Data Analysis

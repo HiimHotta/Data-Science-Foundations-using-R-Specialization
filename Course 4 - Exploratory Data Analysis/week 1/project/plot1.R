@@ -37,9 +37,11 @@ data_subset$Date <- as.Date (data_subset$Date, format = "%d/%m/%Y")
 
 png ("plot1.png", width = 480, height = 480)
 
+
+#blue, because red hurts my eyes :P
 hist (data_subset$Global_active_power, 
       col = "light blue", 
-      xlab = "Global Active Power (kilowatts",
+      xlab = "Global Active Power (kilowatts)",
       main = "Global Active power")
 
 # remember to close device ;)
