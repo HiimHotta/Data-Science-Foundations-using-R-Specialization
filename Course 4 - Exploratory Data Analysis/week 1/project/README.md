@@ -16,13 +16,14 @@ assignment how others made the graphs. I really liked this version from
 ## Plot 1
 
 ```
+# the assignment asks for col = "red", but this light blue is so much better. lol
 hist (data_subset$Global_active_power, 
       col = "light blue", 
       xlab = "Global Active Power (kilowatts",
       main = "Global Active power")
 ```
 
-The image is bellow and the complete code can be found [here](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/blob/main/Course%204%20-%20Exploratory%20Data%20Analysis/week%201/project/plot1.R)
+The image is bellow and the complete code can be found [here](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/blob/main/Course%204%20-%20Exploratory%20Data%20Analysis/week%201/project/plot1.R).
 
 ![Plot1](https://github.com/HiimHotta/Data-Science-Foundations-using-R-Specialization/blob/main/Course%204%20-%20Exploratory%20Data%20Analysis/week%201/project/plot1.png)
 
